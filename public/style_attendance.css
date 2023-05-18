@@ -1,0 +1,57 @@
+
+.content-wrap {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.form_register , h1 {
+    max-width: 700px;
+    width: 95%;
+    margin: 0 auto;
+    border: 3px solid gray;
+    box-shadow: 5px 5px 5px black;
+    padding: 10;
+}
+
+.btns {
+    padding-top: 10px;
+}
+
+.content-wrap h1 {
+    text-align: center;
+}
+
+.mb-3 label {
+    font-weight:bold;
+}
+
+.menu {
+    display: none;
+    border: 3px solid grey;
+    border-radius: 3px;
+    background-color: lightgrey;
+}
+
+.edit-delete {
+    width: 250px;
+    text-align: center;
+}
+
+.edit-delete form {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.edit-delete:last-child {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.edit-delete a {
+    text-decoration: none;
+}

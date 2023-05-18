@@ -1,0 +1,252 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.intro {
+    max-width: 750px;
+    width: 100%;
+    margin: 0;
+    border: 5px;
+    border-color: lightgray black white lightgray;
+    border-style: outset outset none outset;
+}
+
+.intro h1 {
+    color: rgb(25, 25, 25);
+    max-width: 750px;
+    /* margin: 0 0 0 250px; */
+    padding: 15px;
+    border: 5px grey;
+    background-image: linear-gradient(to left, grey, darkgrey);
+    border-style: none none outset outset;
+    text-align: center;
+}
+
+.intro h2 {
+    color: rgb(25, 25, 25);
+    max-width: 750px;
+    padding: 15px;
+    /* margin: 0 0 0 300px; */
+    border: 5px grey;
+    background-image: linear-gradient(to left, grey, darkgrey);
+    border-style: outset none outset outset;
+    text-align: center;
+}
+
+.tag {
+    list-style-type: none;
+    margin: 0;
+    padding: 10 0 10 0;
+    text-align: center;
+}
+
+
+.tag :first-of-type {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.tag :first-of-type ~ li {
+    padding: 2px;
+}
+
+.zero-container {
+    max-width: 750px;
+    width: 100%;
+    margin: 0;
+}
+
+.first-container {
+    /* display: flex; */
+    max-width: 750px;
+    width: 100%;
+    margin: 0;
+}
+
+.second-container{
+    max-width: 750;
+    width: 100%;
+    border: 5px;
+    border-color: white black white lightgray;
+    border-style: none outset none outset;
+    margin: 0;
+}
+
+.third-container {
+    max-width: 750;
+    width: 100%; 
+    border: 5px;
+    border-color: white black white lightgray;
+    border-style: none outset outset outset;
+    margin: 0;
+}
+
+.skills {
+    max-width: 300;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    margin: 0 19px 19px;
+}
+
+.list-skills {
+    margin: 0 50px 0px;
+    padding: 0 0 16px 0;
+}
+
+.education {
+    max-width: 300;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.education h2 {
+    margin: 10px 0 10px 19px;
+}
+
+.school {
+    margin: 0 25px 0px;
+    padding: 0 0 16px 0;
+}
+
+.reference {
+    max-width: 300;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.reference h2 {
+    margin: 10px 0 10px 19px;
+}
+
+.ref {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.experience {
+    max-width: 300;
+    width: 85%;
+    margin: 0 auto;
+    border: 5px;
+    border-color: white black white lightgray;
+    border-style: none none none none;
+}
+
+.experience h2 {
+    margin: 0 19px 19px ;
+}
+
+.job-exp {
+    list-style-type: none;
+}
+
+.seminars {
+    max-width: 300;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.seminars h2 {
+    margin: 25px 19px 10px 19px ;
+}
+
+.seminar_training {
+    padding:  10px 25px 10px;
+}
+
+@media screen and (min-width: 650px){
+    img {
+        width: 200px;
+        height: 200px;
+        margin: 0 25 0 25;
+        float:left;
+    }
+
+    .tag {
+        margin: 0;
+        padding: 10 0 10 300px;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    .intro h1 {
+        color: rgb(25, 25, 25);
+        max-width: 640px;
+        margin: 0 0 0 250px;
+        padding: 15px;
+        border: 5px grey;
+        background-image: linear-gradient(to left, grey, darkgrey);
+        border-style: none none outset outset;
+        text-align: left;
+    }
+    
+    .intro h2 {
+        color: rgb(25, 25, 25);
+        max-width: 590px;
+        padding: 15px;
+        margin: 0 0 0 300px;
+        border: 5px grey;
+        background-image: linear-gradient(to left, grey, darkgrey);
+        border-style: outset none outset outset;
+        text-align: left;
+    }
+
+    .zero-container {
+        max-width: 885px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .intro {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        border: 5px;
+        border-color: lightgray black white lightgray;
+        border-style: outset outset none outset;
+    }
+
+    .first-container {
+        display: flex;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .second-container{
+        max-width: 300;
+        width: 45%;
+        margin: 0 0 0 auto;
+        border: 5px;
+        border-color: white black white lightgray;
+        border-style: none none outset outset;
+    }
+
+    .third-container {
+        max-width: 600;
+        width: 65%; 
+        margin: 0 auto 0 0;
+        border: 5px;
+        border-color: white black white lightgray;
+        border-style: none outset outset none;
+    }
+    
+}

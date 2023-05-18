@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    margin: 0;
+    padding: 50px;
+    background-color: aqua;
+}
+.content-wrap {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    float: left;
+}
+
+.profile-details {
+    padding-left: 120px;
+}
