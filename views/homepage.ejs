@@ -8,47 +8,14 @@
     <script type="text/javascript" src="/homepage.js"></script>
     <link rel="stylesheet" href="../style_homepage.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <title>Document</title>
+    <title>Homepage</title>
 </head>
 <body>
     <div id="app">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
-                <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="/">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        See my Projects
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/names">My Simple CRUD App</a></li>
-                        <li><a class="dropdown-item" href="/calculator">My Simple Calculator</a></li>
-                        <li><a class="dropdown-item" href="/resume">My Resume</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        </ul>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li> -->
-                    </ul>
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-                </div>
-            </nav>
+            <%- include('./partials/navbar') %>
+            <img src="../images/Sendo-removebg-preview.png" alt="Sendo"></img>
             <h1>Hi! I'm Sendo.</h1>
+            <p>Currently, I'm a quality assurance engineer at a Plastic Molding Company. </p>
     </div>
     <script>
 

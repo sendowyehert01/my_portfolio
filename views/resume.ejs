@@ -3,196 +3,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Resume</title>
 </head>
 <body>
+    <%- include('./partials/navbar') %>
 
-    <!------------------ HEAD SECTION ------------------>      
-<div class="zero-container">
-    <section class="intro">
-                    <div class="info">
-                        <img src="./images/IMG_6323 2x2.jpg" alt="Sendo_Galang">
-                        <h1>Rosendo Escobido Galang</h1>
-                        <h2><i>Industrial Engineer</i></h2>
-                        <ul class="tag">
-                            <li><b>+63956-122-4280</b></li>
-                            <li>Don Pablo Subd., Brgy. Canlalay, Biñan City, Laguna</li>
-                            <li>senduo.galang0149@gmail.com</li>
+    <!------------------ HEAD SECTION ------------------> 
+<div class="whole_page">      
+    <div class="zero-container">
+        <section class="intro">
+                        <div class="info">
+                            <img src="./images/IMG_6323 2x2.jpg" alt="Sendo_Galang">
+                            <h1>Rosendo Escobido Galang</h1>
+                            <h2><i>Industrial Engineer</i></h2>
+                            <ul class="tag">
+                                <li><b>+63956-122-4280</b></li>
+                                <li>Don Pablo Subd., Brgy. Canlalay, Biñan City, Laguna</li>
+                                <li>senduo.galang0149@gmail.com</li>
+                            </ul>
+                        </div>
+        </section>
+    </div>
+
+        <!------------------ SKILLS SECTION ------------------>
+    <div class="first-container">
+        <div class="second-container">
+                <section class="skills">
+                    <h2><i>SKILLS:</i></h2>
+                    <ul class="list-skills">
+                        <li>Proficient in using MS Office
+                            <ul>
+                                <li>Word</li>
+                                <li>Excel</li>
+                                <li>Visio</li>
+                                <li>Powerpoint</li>
+                            </ul>
+                        </li>
+                        <li>Knowledgeable in using AutoCAD</li>
+                        <li>Basic knowledge in using Minitab</li>
+                        <li>Basic knowledge in Web Development</li>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>ReactJS</li>
+                                <li>RESTful API</li>
+                                <li>NodeJS</li>
+                                <li>ExpressJS</li>
+                                <li>MongoDB</li>
+                            </ul>
+
+                    </ul>
+                </section>
+
+        <!------------------ EDUCATION SECTION ------------------>
+            
+                <section class="education">
+                    <h2><i>EDUCATION:</i></h2>
+                    <div class="school">
+                        <h3>Polytechnic University of the Philippines</h3>
+                        <ul>
+                            <li>2015-2020</li>
+                            <li>Brgy. Zapote, Biñan City, Laguna</li>
+                            <Li>Bachelor of Science in Industrial Engineering</Li>
                         </ul>
                     </div>
-    </section>
-</div>
+                </section>
 
-    <!------------------ SKILLS SECTION ------------------>
-<div class="first-container">
-    <div class="second-container">
-            <section class="skills">
-                <h2><i>SKILLS:</i></h2>
-                <ul class="list-skills">
-                    <li>Proficient in using MS Office
-                        <ul>
-                            <li>Word</li>
-                            <li>Excel</li>
-                            <li>Visio</li>
-                            <li>Powerpoint</li>
-                        </ul>
-                    </li>
-                    <li>Knowledgeable in using AutoCAD</li>
-                    <li>Basic knowledge in using Minitab</li>
-                    <li>Basic knowledge in Web Development</li>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>ReactJS</li>
-                            <li>RESTful API</li>
-                            <li>NodeJS</li>
-                            <li>ExpressJS</li>
-                            <li>MongoDB</li>
-                        </ul>
+        <!------------------ CHARACTER REFERENCES SECTION ------------------>
+            
+        <section class="reference">
+            <h2><i>CHARACTER REFERENCE:</i></h2>
+                <ul class="ref">
+                    <li>Engr. Jonathan Dimaguila</li>
+                    <li>Campus Instructor</li>
+                    <li>PUP – Binan Campus</li>
+                    <li>0917-135-1348</li>
+                </ul>
 
+                <ul class="ref">
+                    <li>Engr. Christopher Mira</li>
+                    <li>Campus Instructor</li>
+                    <li>PUP – Binan Campus</li>
+                    <li>0912-350-3943</li>
                 </ul>
             </section>
-
-    <!------------------ EDUCATION SECTION ------------------>
-        
-            <section class="education">
-                <h2><i>EDUCATION:</i></h2>
-                <div class="school">
-                    <h3>Polytechnic University of the Philippines</h3>
-                    <ul>
-                        <li>2015-2020</li>
-                        <li>Brgy. Zapote, Biñan City, Laguna</li>
-                        <Li>Bachelor of Science in Industrial Engineering</Li>
-                    </ul>
-                </div>
-            </section>
-
-    <!------------------ CHARACTER REFERENCES SECTION ------------------>
-        
-    <section class="reference">
-        <h2><i>CHARACTER REFERENCE:</i></h2>
-            <ul class="ref">
-                <li>Engr. Jonathan Dimaguila</li>
-                <li>Campus Instructor</li>
-                <li>PUP – Binan Campus</li>
-                <li>0917-135-1348</li>
-            </ul>
-
-            <ul class="ref">
-                <li>Engr. Christopher Mira</li>
-                <li>Campus Instructor</li>
-                <li>PUP – Binan Campus</li>
-                <li>0912-350-3943</li>
-            </ul>
-        </section>
-        
-    </div>
-
-    <!------------------ EXPERIENCE SECTION ------------------>
-    <div class="third-container">
-    <section class="experience">
-        <div class="exp">
-            <h2><i>EXPERIENCES:</i></h2>
-            <ul class="job-exp">
-                <li>November 2022 - January 2023</li>
-                <li><u>Moriroku Philippines Inc.</u></li>
-                <li><i>Quality Assurancce Engineer</i></li>
-            </ul>
-
-            <!-- <div class="duties-Mori">
-                <p>Duties and Responsibilities:</p>
-                    <ul>
-                        <li>Quality Patrol</li>
-                        <li>Assembly line quality inspection</li>
-                        <li>Incoming parts quality inspection</li>
-                        <li>Quality product development support</li>
-                    </ul>
-            </div> -->
             
-            <ul class="job-exp">
-                <li>January 2021 - December 2021</li>
-                <li><u>APEX Manning Inc.</u></li>
-                <li><i>Production Supervisor</i></li>
-            </ul>
-
-            <!-- <div class="duties-APEX">
-                <p>Duties and Responsibilities:</p>
-                    <ul>
-                        <li>Set daily activities and communicate them to employees</li>
-                        <li>Oversee and coach employees</li>
-                        <li>Organize workflow by assigning responsibilities and preparing schedules</li>
-                        <li>Submit report on performance and progress</li>
-                        <li>Enforce strict safety guidelines and company standards</li>
-                    </ul>
-            </div> -->
-        
-            <ul class="job-exp">
-                <li>April 2019 - June 2019</li>
-                <li><u>Mayon Machineries Rentrade</u></li>
-                <li><i>Industrial Engineering Intern</i></li> 
-            </ul>
-
-            <!-- <div class="duties-Mayon">
-                <p>Duties and Responsibilities:</p>
-                    <ul>
-                        <li>AutoCAD</li>
-                        <li>Troubleshooting</li>
-                        <li>Liquidation</li>
-                        <li>Outgoing and Incoming equipments inspection</li>
-                    </ul>
-            </div> -->
-        
-            <ul class="job-exp">
-                <li>May 2022 - June 2023</li>
-                <li><u>Ram Foods Products</u></li>
-                <li><i>Industrial Engineering Intern</i></li>
-            </ul>
-
-            <!-- <div class="duties-RAM">
-                <p>Duties and Responsibilities:</p>
-                    <ul>
-                        <li>Time Study</li>
-                        <li>Encoding and making Plant layout in MS Excel</li>
-                        <li>Making layouts in AutoCAD</li>
-                    </ul>
-            </div> -->
-
         </div>
-    </section>
 
-    <!------------------ SEMINARS & TRAININGS SECTION ------------------>
+        <!------------------ EXPERIENCE SECTION ------------------>
+        <div class="third-container">
+        <section class="experience">
+            <div class="exp">
+                <h2><i>EXPERIENCES:</i></h2>
+                <ul class="job-exp">
+                    <li>November 2022 - January 2023</li>
+                    <li><u>Moriroku Philippines Inc.</u></li>
+                    <li><i>Quality Assurancce Engineer</i></li>
+                </ul>
 
-    <section class="seminars">
-        <h2><i>SEMINARS and TRAININGS: </i></h2>
-        <div class="seminar_training">
-            <ul>
-                <p><i>with Certificates</i></p>
-                <li>How to Make Standout Reports using MS Excel | Sept. 7, 2022 | DICT
-                    Region 4A - Laguna</li>
-                <li>Basic Fumigation Techniques and Integrated Pest Management | May
-                    11, 2021 | RAM Foods Products</li>
-                <li>Graphical Analysis using Minitab | August 10, 2020 | Ask Lex Ph
-                    Academy</li>
-                <li>Introduction to Project Management | July17,2020 | Ask Lex Ph
-                    Academy</li>
-                <li>Certified Lean Six Sigma White Belt | June18,2020 | Ask Lex Ph
-                    Academy</li>
-                <li>2nd Industrial Engineering Symposium | February 2020 | Binan
-                    People’s Center, Auditorium</li>
-                <li>1st Industrial Engineering Symposium | February 2020 | Binan
-                    People’s Center, Auditorium</li>
-                <li>Kaizen | 2017 | PUP Binan Campus</li>
-                    <p><i>without Certificates</i></p>
-                <li>Learning Minitab | 2022 | LinkedIn Learning</li>
-                <li>Become a Six Sigma Yellow Belt | 2022 | LinkedIn Learning</li>
-                <li>SAP ERP: Essential Training | 2022 | LinkedIn Learning</li>
-            </ul>
-        </div>
+                <!-- <div class="duties-Mori">
+                    <p>Duties and Responsibilities:</p>
+                        <ul>
+                            <li>Quality Patrol</li>
+                            <li>Assembly line quality inspection</li>
+                            <li>Incoming parts quality inspection</li>
+                            <li>Quality product development support</li>
+                        </ul>
+                </div> -->
+                
+                <ul class="job-exp">
+                    <li>January 2021 - December 2021</li>
+                    <li><u>APEX Manning Inc.</u></li>
+                    <li><i>Production Supervisor</i></li>
+                </ul>
+
+                <!-- <div class="duties-APEX">
+                    <p>Duties and Responsibilities:</p>
+                        <ul>
+                            <li>Set daily activities and communicate them to employees</li>
+                            <li>Oversee and coach employees</li>
+                            <li>Organize workflow by assigning responsibilities and preparing schedules</li>
+                            <li>Submit report on performance and progress</li>
+                            <li>Enforce strict safety guidelines and company standards</li>
+                        </ul>
+                </div> -->
+            
+                <ul class="job-exp">
+                    <li>April 2019 - June 2019</li>
+                    <li><u>Mayon Machineries Rentrade</u></li>
+                    <li><i>Industrial Engineering Intern</i></li> 
+                </ul>
+
+                <!-- <div class="duties-Mayon">
+                    <p>Duties and Responsibilities:</p>
+                        <ul>
+                            <li>AutoCAD</li>
+                            <li>Troubleshooting</li>
+                            <li>Liquidation</li>
+                            <li>Outgoing and Incoming equipments inspection</li>
+                        </ul>
+                </div> -->
+            
+                <ul class="job-exp">
+                    <li>May 2022 - June 2023</li>
+                    <li><u>Ram Foods Products</u></li>
+                    <li><i>Industrial Engineering Intern</i></li>
+                </ul>
+
+                <!-- <div class="duties-RAM">
+                    <p>Duties and Responsibilities:</p>
+                        <ul>
+                            <li>Time Study</li>
+                            <li>Encoding and making Plant layout in MS Excel</li>
+                            <li>Making layouts in AutoCAD</li>
+                        </ul>
+                </div> -->
+
+            </div>
         </section>
+
+        <!------------------ SEMINARS & TRAININGS SECTION ------------------>
+
+        <section class="seminars">
+            <h2><i>SEMINARS and TRAININGS: </i></h2>
+            <div class="seminar_training">
+                <ul>
+                    <p><i>with Certificates</i></p>
+                    <li>How to Make Standout Reports using MS Excel | Sept. 7, 2022 | DICT
+                        Region 4A - Laguna</li>
+                    <li>Basic Fumigation Techniques and Integrated Pest Management | May
+                        11, 2021 | RAM Foods Products</li>
+                    <li>Graphical Analysis using Minitab | August 10, 2020 | Ask Lex Ph
+                        Academy</li>
+                    <li>Introduction to Project Management | July17,2020 | Ask Lex Ph
+                        Academy</li>
+                    <li>Certified Lean Six Sigma White Belt | June18,2020 | Ask Lex Ph
+                        Academy</li>
+                    <li>2nd Industrial Engineering Symposium | February 2020 | Binan
+                        People’s Center, Auditorium</li>
+                    <li>1st Industrial Engineering Symposium | February 2020 | Binan
+                        People’s Center, Auditorium</li>
+                    <li>Kaizen | 2017 | PUP Binan Campus</li>
+                        <p><i>without Certificates</i></p>
+                    <li>Learning Minitab | 2022 | LinkedIn Learning</li>
+                    <li>Become a Six Sigma Yellow Belt | 2022 | LinkedIn Learning</li>
+                    <li>SAP ERP: Essential Training | 2022 | LinkedIn Learning</li>
+                </ul>
+            </div>
+            </section>
+        </div>
     </div>
-</div>
+</div>   
 
 <script>
 var btn1 = document.querySelectorAll("button")[0];

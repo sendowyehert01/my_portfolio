@@ -1,3 +1,9 @@
 body {
     background-color: rgba(78, 78, 78, 0.5);
 }
+
+img {
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+}

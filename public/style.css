@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+.whole_page {
+    margin-top: 20px;
+}
+
 img {
     display: block;
     width: 150px;
@@ -172,7 +176,9 @@ img {
     padding:  10px 25px 10px;
 }
 
+
 @media screen and (min-width: 650px){
+    
     img {
         width: 200px;
         height: 200px;

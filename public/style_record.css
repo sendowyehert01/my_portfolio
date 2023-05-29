@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(78, 78, 78, 0.5);
 }
 
 .banner {
