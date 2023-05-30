@@ -2,26 +2,38 @@
 
 <script type="text/javascript" src="/homepage.js"></script>
 <link rel="stylesheet" href="../style_homepage.css">
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <div id="app">
-            <%- include('./partials/navbar') %>
-            <img src="../images/Sendo-removebg-preview.png" class="img-fluid" alt="Sendo"></img>
-            <h1>Hi! I'm Sendo.</h1>
-            <div class="greetings">
-                <p>After several months of working as an engineer, I have realized that my true passion lies in programming.
-                    As such, I am eager to transition from engineering and devote myself to learn and grow through programming.
-                    I can utilize my experience in technology to enhance learning opportunities. With this, I possess the requisite patience, empathy, and enthusiasm to thrive as a developer. </p>
-            </div>
-    </div>
-    <script>
+    <%- include('./partials/navbar') %>
 
-        let FlashCard = {
-            data() {
-                return {
-                    contents
+    <div id="root"></div>
+            <!-- <div class="container_body">
+                <div>
+                    <h1>Hi! I'm Sendo.</h1>
+                </div>
+                <div class="greetings">
+                    <p>After several months of working as an engineer, I have realized that my true passion lies in programming.
+                        As such, I am eager to transition from engineering and devote myself to learn and grow through programming.
+                        I can utilize my experience in technology to enhance learning opportunities. With this, I possess the requisite patience, empathy, and enthusiasm to thrive as a developer. </p>
+                </div>
+            </div> -->
+
+            <script type="text/babel">
+
+                function Header(props) {
+                    return (
+                        <div>
+                            <h1>Hi! I'm Sendo</h1>
+                            <h2>{props.title[1]}</h2>
+                        </div>
+                    )
                 }
-            }
-        }
-        Vue.createApp(FlashCard).mount("#app");
-    </script>
+
+                ReactDOM.render(
+                    <Header 
+                    title={['WebDev','Industrial Engineer']}/>,
+                    document.getElementById('root')
+                );
+            </script>
