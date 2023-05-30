@@ -1,13 +1,8 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <% layout('./layouts/template') %>
+
     <link rel="stylesheet" href="/style_record.css">
     <script src="/script_attendance.js" defer></script>
-    <title><%=pangalan1.name%></title>
-</head>
-<body>
+
     <div class="banner"></div>
     <div class="content-wrap">
         <img src="../images/img_male.jpg" alt="male_gender">
@@ -17,9 +12,7 @@
             <li>Location: <%=pangalan1.location%></li>
         </div>
     
-                <br>
+                <br>    
                 <br>
         <button><a href="/names">BACK</a></button><br>
     </div>
-</body>
-</html>
