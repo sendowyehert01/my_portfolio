@@ -26,7 +26,16 @@
                     return (
                         <div>
                             <h1>Hi! I'm Sendo</h1>
-                            <h2>{props.title[1]}</h2>
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <h2 class="d-block w-100">Industrial Engineer</h2>
+                                    </div>
+                                    <div class="carousel-item">
+                                    <h2 class="d-block w-100">Web Developer</h2>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     )
                 }
