@@ -4,15 +4,15 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
+
+.whole_page {
+    margin-top: 100px;
+}
+
 body {
     margin: 0;
     padding: 0;
-}
-
-.whole_page {
-    margin-top: 20px;
-}
+}   
 
 img {
     display: block;
@@ -255,4 +255,8 @@ img {
         border-style: none outset outset none;
     }
     
+    .whole_page {
+        margin-top: 100px;
+    }
+
 }
