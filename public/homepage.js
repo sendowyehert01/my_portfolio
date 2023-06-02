@@ -36,7 +36,7 @@ function Home() {
 
 function About() {
     return (
-        <div class="about" id="scrollspyHeading2">
+        <div class="about section" id="scrollspyHeading2">
                 <div class="heading">
                     <h2>About Me</h2>
                     <span>Introduction</span>
@@ -65,7 +65,7 @@ function About() {
                                 <span>senduo.galang0149@gmail.com</span>
                             </div>
                         </div>
-                        <a href="./images/Galang_Resume_2023_updated.pdf" class="btncv">Download CV</a>
+                        <a href="./images/Galang_Resume_2023_updated.pdf" class="btncv2">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ function About() {
 
 function Skills() {
     return (
-        <div class="skills" id="scrollspyHeading3">
+        <div class="skills section" id="scrollspyHeading3">
                 <div class="heading">
                     <h2>Skills</h2>
                     <span>My Skills</span>
@@ -142,7 +142,7 @@ function Skills() {
 
 function Services() {
     return (
-            <div class="services" id="services">
+            <div class="services section" id="services">
                     <div class="heading">
                         <h2>Services</h2>
                         <span>Our Services</span>
@@ -178,7 +178,7 @@ function Services() {
 
 function Contact() {
     return (
-        <div class="contact" id="contact">
+        <div class="contact section" id="contact">
                 <div class="heading">
                     <h2>Contact</h2>
                     <span>Connect Me</span>
