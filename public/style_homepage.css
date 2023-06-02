@@ -426,6 +426,10 @@ form textarea {
 
   /* For Mobile */
 @media (max-width: 650px) {
+
+  nav {
+    width: 992 !important;
+  }
   
   :root {
     --big-font: 2.7rem;

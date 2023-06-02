@@ -1,6 +1,10 @@
 body {
-    text-align: center;
     margin: 0 auto;
+    }
+
+    .primary_container {
+        display: flex;
+        text-align: center;
     }
 
     .container {
