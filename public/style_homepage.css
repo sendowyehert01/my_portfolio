@@ -53,7 +53,7 @@
   .home {
     position: relative;
     width: 100%;
-    min-height: 70vh ;
+    min-height: 20vh ;
     display: grid;
     grid-template-columns: 0.2fr 1fr 1fr;
     align-items: center;

@@ -22,7 +22,7 @@ function Home() {
                     <div className="slider">
                         <span className="visible">Industrial Engineer</span>
                         <span>Web Developer</span>
-                        <span>Freelance</span>
+                        <span>Freelancer</span>
                     </div>
                     <p> After several months of working as an engineer, I have realized that my true passion lies in programming.
                         As such, I am eager to transition from engineering and devote myself to learn and grow through programming.
@@ -145,31 +145,14 @@ function Services() {
             <div class="services section" id="services">
                     <div class="heading">
                         <h2>Services</h2>
-                        <span>Our Services</span>
+                        <span>My Services</span>
                     </div>
                     <div class="services-content">
 
                         <div class="services-box">
-                            <i class='bx bx-code-alt'></i>
+                            <i class='bx'></i>
                             <h3>Web Development</h3>
-                            <a href="#">Learn More</a>
-                        </div>
-
-                        <div class="services-box">
-                            <i class='bx bx-server'></i>
-                            <h3>Backend Development</h3>
-                            <a href="#">Learn More</a>
-                        </div>
-                        <div class="services-box">
-                            <i class='bx bx-brush'></i>
-                            <h3>UI/UX Design</h3>
-                            <a href="#">Learn More</a>
-                        </div>
-
-                        <div class="services-box">
-                            <i class='bx bxl-android'></i>
-                            <h3>App Development</h3>
-                            <a href="#">Learn More</a>
+                            <a href="#"> Wala pa! </a>
                         </div>
                     </div>
                 </div>
