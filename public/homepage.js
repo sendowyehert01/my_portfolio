@@ -1,9 +1,3 @@
-var contents = {
-    name: 'Rosendo Galang',
-    course: 'Bachelor of Science in Industrial Engineering',
-    school: 'Polytechnic University of The Philippines'
-};
-
 function Home() {
     return (
         <div>
@@ -198,7 +192,7 @@ function Footer() {
 }
 
 ReactDOM.render(
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabIndex="0">
             <Home />
             <About />
             <Skills />
