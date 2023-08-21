@@ -21,7 +21,7 @@ function Home() {
                     <p> After several months of working as an engineer, I have realized that my true passion lies in programming.
                         As such, I am eager to transition from engineering and devote myself to learn and grow through programming.
                         I can utilize my experience in technology to enhance learning opportunities. With this, I possess the requisite patience, empathy, and enthusiasm to thrive as a developer.</p>
-                    <a href="./images/Galang_Resume_2023_updated.pdf" class="btncv">Download CV</a>
+                    <a href="./images/Galang_Resume_2023.pdf" class="btncv">Download CV</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@ function About() {
                                 <span>senduo.galang0149@gmail.com</span>
                             </div>
                         </div>
-                        <a href="./images/Galang_Resume_2023_updated.pdf" class="btncv2">Download CV</a>
+                        <a href="./images/Galang_Resume_2023.pdf" class="btncv2">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -161,11 +161,11 @@ function Contact() {
                     <span>Connect Me</span>
                 </div>
                 <div class="contact-form">
-                    <form action="">
+                    <form action="mailto:senduo.galang0149@gmail.com" method="POST">
                         <input type="text" placeholder="Your Name"/>
                         <input type="email" name="" id="" placeholder="Your Email"/>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                        <input type="button" value="Send" class="contact-button"/>
+                        <input type="submit" value="Send" class="contact-button"/>
                     </form>
                 </div>
         </div>
