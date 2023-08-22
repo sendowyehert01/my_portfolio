@@ -14,7 +14,7 @@ function Home() {
                     <span>Hello, I'm</span>
                     <h1>Rosendo Galang</h1>
                     <div className="slider">
-                        <span className="visible">Web Developer</span>
+                        <span className="visible">Web Developer!</span>
                         <span>Industrial Engineer</span>
                         <span>Freelancer</span>
                     </div>
